@@ -1,0 +1,25 @@
+<html> 
+<body>
+
+<h1>Demo: JavaScript Local and Global scope</h1> 
+
+<script>
+var no = 5; //Global variable 
+
+
+function modifyNo() {
+var no = 10; //creating local variable.
+document.write(no); 
+};
+
+
+document.write(no); 
+document.write("<br/>"); 
+modifyNo(); 
+document.write("<br/>"); 
+document.write(no); 
+document.write("<br/>");
+
+</script> 
+</body>
+</html>

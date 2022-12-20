@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type = "text/javascript">
+
+function time() 
+{
+var d = new Date();
+var ty = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+document.abc.timetxt.value=ty;
+setInterval("time()",1000);
+}
+</script>
+</head>
+
+<body onload="time()">
+<form name="abc">
+<input type = "text" name = "timetxt" size = "8"/>
+</form>
+
+</body>
+</html>

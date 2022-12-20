@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Select one of the your favourite programming language from the given list. </p>
+<select id="Choose" onchange="Func_a()">
+<option value="Java">Java
+<option value="C++">C++
+<option value="C#">C#
+<option value="Python">Python
+</select>
+<p>Get one of your favourite programming language you wish to master.</p>
+<p id="lang"></p>
+<script>
+function Func_a() {
+varx_ip = document.getElementById("Choose").value;
+document.getElementById("lang").innerHTML = "Select from the given programming language list " + x_ip;
+}
+</script>
+</body>
+</html>

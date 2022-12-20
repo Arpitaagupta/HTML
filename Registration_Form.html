@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Registration Form
+    </title>
+    </head>
+    <body>
+        <table>
+        <tr><th><h1>Registration Form</h1></th></tr>
+        <form action="FIRST.html" method="GET">
+            <tr>
+                <td>
+            <label> User id:</label>
+            </td>
+            <td>
+            <input type="text" name="id" class="inputstyle" id="register_id"/>
+        </td>
+    </tr>
+            <br/>
+        <tr>
+            <td> <label>Password:</label> </td>
+            <td><input type="password" name="password" class="inputstyle" id="register_password"/> </td>
+           
+           </tr>
+            <br/>
+        <tr>
+            <td> <label>Name:</label></td>
+                <td> <input type="text" name="name" class="inputstyle" id="register_name"/></td>
+        </tr>
+            <br/>
+        <tr>
+            <td>   <label>Address:</label></td>
+                <td>  <textarea  name="Address" class="inputstyle"  rows="1" cols="50"></textarea></td>
+        </tr>
+            <br/>
+            <tr>
+                <td><label for="Country">Country:</label></td>
+                <td> <select name ="Country" id="register_country">
+                <option value="AF">Afghanistan</option>
+                <option value="AU">Australia</option>
+                <option value="BA">Bangladesh</option>
+                <option value="BE">Belgium</option>
+                <option value="CA">Canada</option>
+                <option value="EG">Egypt</option>
+                <option value="HU">Hungary</option>
+                <option value="IN">India</option>
+                <option value="PK">Pakistan</option>
+                <option value="USA">United States Of America</option>
+                <option value="OT">Others</option>
+            </select>
+            </td>
+            </tr>
+            <br/>
+            <tr>
+                <td><label>ZIP Code:</label></td>
+                    <td> <input type="number" name="Code" class="inputstyle" id="register_Code"/></td>
+        </tr>
+            <br/>
+            <tr>
+                <td> <label>Email:</label></td>
+                <td> <input type="email" name="email" class="inputstyle" id="register_email"/></td>
+            </tr>
+                <br/>
+            <tr>
+                <td> <label>Gender:</label></td>
+                    <td> <input type="radio" name="gender"  id="register_gendermale" value="male"/>
+            <label for ="register_gendermale">Male</label> </td>
+            <td>
+            <input type="radio" name="gender"  id="register_genderfemale" value="female"/>
+            <label for ="register_genderfemale">Female</label>
+        </td>
+        </tr>
+            <br/>
+            <tr>
+                <td> <label>Language:</label></td>
+            <td> <input type="checkbox"  id="english" value="english"/> 
+            <label for ="english">English</label> </td>
+
+        <td> <input type="checkbox"  id="nonenglish" value="nonenglish"/>
+            <label for ="nonenglish">Non English</label></td>
+        </tr>
+            <br/>
+            <tr>
+            <td> <label>About:</label></td>
+            <td><textarea  name="About" class="inputstyle"  rows="5" cols="50"></textarea>
+        </td>
+    </tr>
+    </table>
+            <br/>
+
+        <input type="submit" id="register_0" value="Submit">
+        
+        </form>
+    
+    </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myblurFun(){
+ alert("I AM CALLED WHEN TEXT IS BLURRED");
+}
+function myfocusFun(){
+ alert("I AM CALLED WHEN TEXT IS FOCUSED");
+}
+
+</script>
+</head>
+
+<body>
+
+Enter your name: <input type="text" id="fname" onblur="myblurFun()" onfocus="myfocusFun()">
+</body>
+</html>
